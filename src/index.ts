@@ -7,7 +7,7 @@ import prompt from 'prompt';
 import { v2 as cloudinary } from 'cloudinary';
 
 program
-  .command('get-assets')
+  .command('go')
   .description('Fetch assets from Cloudinary')
   .action(() => {
     prompt.start();
