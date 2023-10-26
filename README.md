@@ -27,9 +27,9 @@ _This package is not affiliated with Cloudinary._
 
 To install the CLI tool globally, run:
 
-\`\`\`bash
+```bash
 pnpm install -g cld-get-assets
-\`\`\`
+```
 
 ## Usage
 
@@ -37,9 +37,9 @@ pnpm install -g cld-get-assets
 
 To fetch assets, simply run:
 
-\`\`\`bash
+```bash
 cld-get-assets go
-\`\`\`
+```
 
 Follow the prompts to enter your Cloudinary credentials and other settings.
 
@@ -47,9 +47,9 @@ Follow the prompts to enter your Cloudinary credentials and other settings.
 
 To update saved Cloudinary credentials, run:
 
-\`\`\`bash
+```bash
 cld-get-assets config
-\`\`\`
+```
 
 ## Configuration
 
