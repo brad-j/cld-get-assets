@@ -34,7 +34,7 @@ const moment_1 = __importDefault(require("moment"));
 const prompt_1 = __importDefault(require("prompt"));
 const cloudinary_1 = require("cloudinary");
 commander_1.program
-    .command('get-assets')
+    .command('go')
     .description('Fetch assets from Cloudinary')
     .action(() => {
     prompt_1.default.start();
