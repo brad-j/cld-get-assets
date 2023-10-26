@@ -28,3 +28,6 @@ node_modules/
 # CSV files
 *.csv
 
+# dist dir
+dist/
+

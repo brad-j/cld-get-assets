@@ -10,3 +10,7 @@ TODO:
 
 - [ ] Mask Input
 - [ ] Enable Search
+
+_This package is not affiliated with Cloudinary._
+
+**This package has been renamed from cld_get_assets to cld-get-asset**
