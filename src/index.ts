@@ -70,7 +70,7 @@ program
 
             assets.forEach((asset: any) => {
               const formatted_date = moment(asset.created_at).format(
-                'DD-MM-YYYY'
+                'MM-DD-YYYY'
               );
               csvStream.write({
                 public_id: asset.public_id,

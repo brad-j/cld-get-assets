@@ -1,7 +1,7 @@
 {
   "name": "cld_get_assets",
   "version": "0.1.0",
-  "description": "A script to get assets from Cloudinary and save them to a CSV file. It uses the Cloudinary SDK for Node.js and the Search API.",
+  "description": "A nifty CLI tool to get assets from Cloudinary",
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts"
