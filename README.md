@@ -8,5 +8,5 @@ A simple CLI tool to export assets from Cloudinary to a CSV file.
 
 TODO:
 
-[] Mask Input
-[] Enable Search
+- [ ] Mask Input
+- [ ] Enable Search
