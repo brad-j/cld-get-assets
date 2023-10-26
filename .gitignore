@@ -31,3 +31,5 @@ node_modules/
 # dist dir
 dist/
 
+.DS_Store
+
