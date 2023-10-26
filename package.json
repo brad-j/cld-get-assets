@@ -1,0 +1,21 @@
+{
+  "name": "cld_get_assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:get_assets": "ts-node ./get_assets.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.9",
+    "cloudinary": "^1.41.0",
+    "dotenv": "^16.3.1",
+    "fast-csv": "^4.3.6",
+    "moment": "^2.29.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
