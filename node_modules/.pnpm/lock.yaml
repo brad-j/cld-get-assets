@@ -11,6 +11,9 @@ dependencies:
   cloudinary:
     specifier: ^1.41.0
     version: 1.41.0
+  commander:
+    specifier: ^11.1.0
+    version: 11.1.0
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
@@ -170,6 +173,11 @@ packages:
   /colors@1.0.3:
     resolution: {integrity: sha512-pFGrxThWcWQ2MsAz6RtgeWe4NK2kUE1WfsrvvlctdII745EW9I0yflqhe7++M5LEc7bV2c/9/5zc8sFcpL0Drw==}
     engines: {node: '>=0.1.90'}
+    dev: false
+
+  /commander@11.1.0:
+    resolution: {integrity: sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==}
+    engines: {node: '>=16'}
     dev: false
 
   /core-js@3.33.1:
