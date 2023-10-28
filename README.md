@@ -1,4 +1,4 @@
-# Cloudinary CLI Tool to Export Assets to CSV
+# [Cloudinary](https://cloudinary.com) CLI Tool to Export Assets to CSV
 
 A simple CLI tool to export assets from Cloudinary to a CSV file.
 
@@ -11,7 +11,7 @@ TODO:
 - [ ] Mask Input
 - [ ] Enable Search
 - [x] Enable tags
-- [ ] Enable Metadata
+- [x] Enable Metadata
 
 _This package is not affiliated with Cloudinary._
 
@@ -22,6 +22,7 @@ _This package is not affiliated with Cloudinary._
 - Fetch assets based on various parameters
 - Save assets information to a CSV file
 - Manage Cloudinary credentials
+- Support for including tags and metadata in the CSV
 
 ## Installation
 
@@ -43,17 +44,51 @@ cld-get-assets go
 
 Follow the prompts to enter your Cloudinary credentials and other settings.
 
-### Updating Credentials
+#### Step 1: Enter Cloudinary Credentials
+
+You'll be prompted to enter your Cloudinary credentials:
+
+- Cloudinary cloud name
+- Cloudinary API key
+- Cloudinary API secret
+
+These credentials will be saved for future use.
+
+#### Step 2: Choose Output Directory and Filename
+
+Next, you'll be asked to specify:
+
+- The output directory where the CSV will be saved. It's relative to your current working directory.
+- The filename for the CSV
+
+#### Step 3: Choose Additional Fields
+
+You'll have the option to include additional fields in the CSV:
+
+- Tags
+- Metadata
+
+Use the arrow keys to select which fields you want to include.
+
+#### Step 4: Choose Metadata Fields (Optional)
+
+If you chose to include metadata, you'll be prompted to select which metadata fields to include in the CSV. Again, use the arrow keys to make your selections.
+
+#### Step 5: Fetching and Saving
+
+After you've made all your selections, the tool will fetch the assets based on your criteria and save them to a CSV file in the specified directory.
+
+## Configuration
+
+The tool saves your Cloudinary credentials locally for future use. The config file is saved at:
+
+:open_file_folder: ~/.cld_get_assets_config.json
 
 To update saved Cloudinary credentials, run:
 
 ```bash
 cld-get-assets config
 ```
-
-## Configuration
-
-The tool saves your Cloudinary credentials locally for future use. The config file is saved at `~/.cld_get_assets_config.json`.
 
 ## Contributing
 
