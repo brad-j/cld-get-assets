@@ -10,6 +10,7 @@ TODO:
 
 - [ ] Mask Input
 - [ ] Graceful Exit
+- [ ] Allow users to choose which system fields to include in the CSV
 - [ ] Enable Search
 - [x] Enable tags
 - [x] Enable Metadata
