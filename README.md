@@ -31,8 +31,10 @@ _This package is not affiliated with Cloudinary._
 To install the CLI tool globally, run:
 
 ```bash
-pnpm install -g cld-get-assets
+pnpm add -g cld-get-assets
 ```
+
+(or npm, yarn, etc.)
 
 ## Usage
 
