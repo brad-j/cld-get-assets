@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.2.0
     version: 3.2.0
   '@types/node':
-    specifier: ^20.8.9
-    version: 20.8.9
+    specifier: ^20.8.10
+    version: 20.8.10
   cloudinary:
     specifier: ^1.41.0
     version: 1.41.0
@@ -39,7 +39,7 @@ devDependencies:
     version: 1.1.7
   ts-node:
     specifier: ^10.9.1
-    version: 10.9.1(@types/node@20.8.9)(typescript@5.2.2)
+    version: 10.9.1(@types/node@20.8.10)(typescript@5.2.2)
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -107,7 +107,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.1.5
       '@types/mute-stream': 0.0.2
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -242,22 +242,22 @@ packages:
   /@types/mute-stream@0.0.2:
     resolution: {integrity: sha512-FpiGjk6+IOrN0lZEfUUjdra1csU1VxwYFj4S0Zj+TJpu5x5mZW30RkEZojTadrNZHNmpCHgoE62IQZAH0OeuIA==}
     dependencies:
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
     dev: false
 
   /@types/node@14.18.63:
     resolution: {integrity: sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==}
     dev: false
 
-  /@types/node@20.8.9:
-    resolution: {integrity: sha512-UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==}
+  /@types/node@20.8.10:
+    resolution: {integrity: sha512-TlgT8JntpcbmKUFzjhsyhGfP2fsiz1Mv56im6enJ905xG1DAYesxJaeSbGqQmAw8OWPdhyJGhGSQGKRNJ45u9w==}
     dependencies:
       undici-types: 5.26.5
 
   /@types/prompt@1.1.7:
     resolution: {integrity: sha512-RNOOfuVLljqRTeYpBZ12P+7mDnbEtDmsoPlOnCM+Yv2qo7+rgGZ5Q0tlqNq5OMkBKM7nGjWwlXoiTeDIjYgcdw==}
     dependencies:
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
       '@types/revalidator': 0.3.11
     dev: true
 
@@ -268,20 +268,20 @@ packages:
   /@types/through@0.0.32:
     resolution: {integrity: sha512-7XsfXIsjdfJM2wFDRAtEWp3zb2aVPk5QeyZxGlVK57q4u26DczMHhJmlhr0Jqv0THwxam/L8REXkj8M2I/lcvw==}
     dependencies:
-      '@types/node': 20.8.9
+      '@types/node': 20.8.10
     dev: true
 
   /@types/wrap-ansi@3.0.0:
     resolution: {integrity: sha512-ltIpx+kM7g/MLRZfkbL7EsCEjfzCcScLpkg37eXEtx5kmrAKBkTJwd1GIAjDSL8wTpM6Hzn5YO4pSb91BEwu1g==}
     dev: false
 
-  /acorn-walk@8.2.0:
-    resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==}
+  /acorn-walk@8.3.0:
+    resolution: {integrity: sha512-FS7hV565M5l1R08MXqo8odwMTB02C2UqzB17RVgu9EyuYFBqJZ3/ZY97sQD5FewVu1UyDFc1yztUDrAwT0EypA==}
     engines: {node: '>=0.4.0'}
     dev: true
 
-  /acorn@8.10.0:
-    resolution: {integrity: sha512-F0SAmZ8iUtS//m8DmCTA0jlh6TDKkHQyK6xc6V4KDTyZKA9dnvX9/3sRTVQrWm79glUAZbnmmNcdYwUIHWVybw==}
+  /acorn@8.11.2:
+    resolution: {integrity: sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -354,7 +354,7 @@ packages:
     engines: {node: '>=0.6'}
     dependencies:
       cloudinary-core: 2.13.0(lodash@4.17.21)
-      core-js: 3.33.1
+      core-js: 3.33.2
       lodash: 4.17.21
       q: 1.5.1
     dev: false
@@ -380,8 +380,8 @@ packages:
     engines: {node: '>=16'}
     dev: false
 
-  /core-js@3.33.1:
-    resolution: {integrity: sha512-qVSq3s+d4+GsqN0teRCJtM6tdEEXyWxjzbhVrCHmBS5ZTM0FS2MOS0D13dUXAWDUN6a+lHI/N1hF9Ytz6iLl9Q==}
+  /core-js@3.33.2:
+    resolution: {integrity: sha512-XeBzWI6QL3nJQiHmdzbAOiMYqjrb7hwU7A39Qhvd/POSa/t9E1AeZyEZx3fNvp/vtM8zXwhoL0FsiS0hD0pruQ==}
     requiresBuild: true
     dev: false
 
@@ -603,7 +603,7 @@ packages:
       os-tmpdir: 1.0.2
     dev: false
 
-  /ts-node@10.9.1(@types/node@20.8.9)(typescript@5.2.2):
+  /ts-node@10.9.1(@types/node@20.8.10)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -622,9 +622,9 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.8.9
-      acorn: 8.10.0
-      acorn-walk: 8.2.0
+      '@types/node': 20.8.10
+      acorn: 8.11.2
+      acorn-walk: 8.3.0
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
