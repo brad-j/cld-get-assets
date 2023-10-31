@@ -1,6 +1,6 @@
 {
   "name": "cld-get-assets",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A nifty CLI tool to get assets from Cloudinary",
   "main": "dist/index.js",
   "bin": {

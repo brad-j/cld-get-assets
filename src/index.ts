@@ -183,6 +183,7 @@ program
         const assets = search.resources;
 
         console.log(`Writing ${assets.length} assets to CSV.`);
+        console.log(`Rate Limit Remaining: ${search.rate_limit_remaining}`);
 
         assets.forEach((asset: any) => {
           const formatted_date = moment(asset.created_at).format('MM-DD-YYYY');
