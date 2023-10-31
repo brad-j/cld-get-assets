@@ -188,6 +188,7 @@ program
           const formatted_date = moment(asset.created_at).format('MM-DD-YYYY');
           const base_data = {
             public_id: asset.public_id,
+            folder: asset.folder,
             format: asset.format,
             version: asset.version,
             created_at: formatted_date,
@@ -224,10 +225,6 @@ program
             });
           }
 
-          // console.log('Additional Data:', additional_data);
-          // console.log('Filtered Metadata:', filtered_metadata);
-          // console.log('Metadata Fields:', metadata_fields);
-          // console.log('Datasource Map:', datasourceMap);
           const final_data = { ...base_data, ...additional_data };
           csvStream.write(final_data);
         });
