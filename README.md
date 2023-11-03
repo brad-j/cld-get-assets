@@ -1,3 +1,5 @@
+# This package has been moved to @b-rad/cld-get-assets
+
 # [Cloudinary](https://cloudinary.com) CLI Tool to Export Assets to CSV
 
 A simple CLI tool to export assets from Cloudinary to a CSV file.
