@@ -68,7 +68,7 @@ async function fetch_metadata_fields(): Promise<MetadataField[]> {
       label: field.label,
       external_id: field.external_id,
       type: field.type,
-      datasource: field.datasource, // Include this line
+      datasource: field.datasource,
     }));
   } catch (err) {
     console.error('Failed to fetch metadata fields:', err);
@@ -100,18 +100,19 @@ program
       message: 'Enter the output filename',
       default: 'assets.csv',
     });
+
+    cloudinary.config({
+      cloud_name,
+      api_key,
+      api_secret,
+    });
+
     const include_fields = await checkbox({
       message: 'Which additional fields do you want?',
       choices: ['tags', 'metadata'].map(field => ({
         name: field,
         value: field,
       })),
-    });
-
-    cloudinary.config({
-      cloud_name,
-      api_key,
-      api_secret,
     });
 
     let metadata_fields: any[] = [];
