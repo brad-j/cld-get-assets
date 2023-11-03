@@ -7,11 +7,6 @@ import moment from 'moment';
 import { v2 as cloudinary } from 'cloudinary';
 import { input, checkbox } from '@inquirer/prompts';
 
-process.on('SIGINT', () => {
-  console.log('\nOperation cancelled by user. Exiting... 👋');
-  process.exit(0);
-});
-
 interface CloudinaryConfig {
   cloud_name?: string;
   api_key?: string;
