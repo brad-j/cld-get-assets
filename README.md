@@ -10,6 +10,7 @@ A simple CLI tool to export assets from Cloudinary to a CSV file.
 
 TODO:
 
+- [ ] Refactor try catch blocks
 - [ ] Mask Input
 - [ ] Graceful Exit
 - [ ] Allow users to choose which system fields to include in the CSV

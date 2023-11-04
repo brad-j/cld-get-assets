@@ -129,8 +129,7 @@ program
         if (type === 'enum' || type === 'set') {
           const valueMap: Record<string, string> = {};
           datasource?.values.forEach(({ external_id, value }) => {
-            // <-- Note the change here
-            valueMap[external_id] = value; // <-- And here
+            valueMap[external_id] = value;
           });
           datasourceMap[external_id] = valueMap;
         }
