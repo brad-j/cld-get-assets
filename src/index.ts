@@ -136,6 +136,11 @@ program
       });
     }
 
+    const search_expression = await input({
+      message: 'Enter a search expression',
+      default: '',
+    });
+
     const new_config = {
       cloud_name,
       api_key,
@@ -157,7 +162,7 @@ program
     ): Promise<void> {
       try {
         const search_params = cloudinary.search
-          .expression('')
+          .expression(search_expression)
           .with_field('tags')
           .with_field('metadata')
           .sort_by('created_at', 'desc')
