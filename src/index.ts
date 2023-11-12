@@ -5,7 +5,7 @@ import * as os from 'os';
 import * as csv from 'fast-csv';
 import moment from 'moment';
 import { v2 as cloudinary } from 'cloudinary';
-import { input, checkbox } from '@inquirer/prompts';
+import { input, checkbox, password } from '@inquirer/prompts';
 
 interface CloudinaryConfig {
   cloud_name?: string;
@@ -41,9 +41,9 @@ program
       message: 'Enter your Cloudinary API key',
       default: saved_config?.api_key,
     });
-    const api_secret_answer = await input({
-      message: 'Enter your Cloudinary API secret',
-      default: saved_config?.api_secret,
+    const api_secret_answer = await password({
+      message: 'Enter your Cloudinary API secret.',
+      mask: '*',
     });
 
     const new_config = {
@@ -83,9 +83,9 @@ program
       message: 'Enter your Cloudinary API key',
       default: saved_config?.api_key,
     });
-    const api_secret = await input({
-      message: 'Enter your Cloudinary API secret',
-      default: saved_config?.api_secret,
+    const api_secret = await password({
+      message: 'Enter your Cloudinary API secret. Press enter to skip.',
+      mask: '*',
     });
     const output_directory = await input({
       message: 'Enter the output directory',
